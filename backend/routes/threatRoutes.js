@@ -10,7 +10,7 @@ router.post("/", async (req, res) => {
     await threat.save();
     res.status(201).json({ message: "Threat logged" });
   } catch (err) {
-   // res.status(500).json({ error: err.message });
+   res.status(500).json({ error: err.message });
   }
 });
 
