@@ -8,7 +8,7 @@ function App() {
       <div className="grid grid-cols-2 gap-6 mt-6">
         <AttackTrends />
         <ThreatMap />
-      </div>
+      
     </div>
   );
 }
